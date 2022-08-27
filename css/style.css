@@ -14,21 +14,21 @@
 p {
     color: #fff;
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
-    font-size: 20оpx;
+    font-size: 20px;
 }
 .page {
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
     background-color: #121212;
     min-height: 100vh;
     margin: 0;
-    display: flex;
     font-size: 20px;
 }
 .header {
     display: flex;
-    margin: 54px 3vw 0 3vw;
-    width: 100%;
+    margin: 47px 3vw 0 3vw;
+    width: 94vw;
     max-width: 1440px;
+    justify-content: space-between;
 }
 .logo-wrapper {
     display: flex;
@@ -37,11 +37,33 @@ p {
     background-color: #fff;
     width: 18px;
     height: 18px;
+    margin-top: 8px;
 }
-.logo-text {
-    font-weight: 600;
-    text-transform: uppercase;
+.header-ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
     margin: 0;
-    margin-left: 10px;
+    line-height: 1.6;
+
+}
+.header-links {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 126px;
+}
+.header-links:not(:last-child) {
+    margin-left: 126px;
+}
+.sign-in {
+    margin: 0;
     line-height: 0.8;
+    background-color: #fff;
+    color: #181818;
+    padding: 8px 24px;
+    text-transform: uppercase;
+}
+.header-links {
+    border-bottom: 3px solid white;
 }
