@@ -7,13 +7,13 @@
 }
 @font-face {
 	src: url('../fonts/Krub/Krub-SemiBold.ttf') format('truetype');
-	font-family: 'Oswald';
+	font-family: 'Krub';
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
 	src: url('../fonts/Krub/Krub-Bold.ttf') format('truetype');
-	font-family: 'Oswald';
+	font-family: 'Krub';
 	font-weight: 700;
 	font-style: normal;
 }
@@ -29,6 +29,13 @@
 	font-weight: 600;
 	font-style: normal;
 }
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/Oswald-Bold.ttf') format('truetype');
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-style: normal;
+}
 p {
     color: #fff;
     font-family: 'Krub', Helvetica, Arial, sans-serif;
@@ -43,8 +50,8 @@ p {
 }
 .header {
     display: flex;
-    margin: 47px 3vw 0 3vw;
-    width: 94vw;
+    margin: 47px 4vw 0 4vw;
+    width: 92vw;
     max-width: 1440px;
     justify-content: space-between;
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
@@ -56,7 +63,7 @@ p {
     background-color: #fff;
     width: 18px;
     height: 18px;
-    margin-top: 8px;
+    margin-top: 6px;
 }
 .header-ul {
     display: flex;
@@ -70,6 +77,8 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
+    padding-bottom: 13px;
+    font-size: 18px;
 }
 .link-containter:not(:last-child) {
     padding-right: 126px;
@@ -82,9 +91,9 @@ p {
     padding: 8px 24px;
     text-transform: uppercase;
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 18px;
 }
-.header-links {
-    padding-bottom: 7px;
+.active, .header-links:hover {
     border-bottom: 2px solid white;
 }
 .grid-wrapper {
@@ -104,26 +113,24 @@ p {
 }
 .year { 
     grid-area: year; 
+    display: flex;
+    justify-content: flex-end;
 }
 .intro { 
-    grid-area: intro; 
+    margin-top: 8px;
+    grid-area: intro;
+    color: #fff;
+    width: 300px;
+    margin-left: 46px;
 }
 .label { 
     grid-area: label; 
+    padding-left: 3.5vw;
+    padding-top: 4.3vh;
 }
 .label2 { 
     grid-area: label2; 
-}
-.circle {
-        width: 375.75px;
-        height: 375.75px;
-        background-color: #a460f9;
-        border-radius: 50%;
-}
-.intro-pic {
-    filter: grayscale(1);
-    max-width: 307px;
-    height: auto;
+    display: flex;
 }
 .circle {
     width: 375.75px;
@@ -131,6 +138,118 @@ p {
     background-color: #a460f9;
     border-radius: 50%;
 }
-.ui {
-    font-size: 60px;
+.intro-pic {
+    filter: grayscale(1);
+    max-width: 307px;
+    height: auto;
+    margin-left: 16px;
+    margin-top: -157px;
 }
+.circle {
+    width: 375.75px;
+    height: 375.75px;
+    background-color: #a460f9;
+    border-radius: 50%;
+    margin-left: 41px;
+    margin-top: 150px;
+}
+.ui {
+    font-size: 132px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.small-circle {
+    color:#a460f9;
+}
+.year-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 0;
+    padding-left: 37px;
+    margin: 0;
+    padding-top: 23px;
+    padding-bottom: 19px;
+}
+.year-text > span {
+    font-size: 30px;
+    letter-spacing: 4.5px;
+}
+.border {
+    width: 176px;
+    margin-top: 49px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    align-self: flex-start;
+}
+.intro > p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 19px;
+    line-height: 1.7;
+    margin-bottom: 47px;
+}
+.intro > h3 {
+    margin: 0;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.start-button, .read-more {
+    margin-right: 27px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.start-button {
+    background-color: #a460f9;
+    padding: 13px 24px;
+}
+.vertical-text {
+    writing-mode: vertical-lr;
+	transform: rotate(-180deg);
+    margin-left: 3.5vw;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: -22px;
+}
+.vertical-text > span {
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.white_quadrat {
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+}
+.label2-right {
+    display: flex;
+    margin-top: 116px;
+    margin-left: 61px;
+}
+.become {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.white_quadrat {
+    margin-top: 4px;
+    margin-right: 15px;
+}
+/* FISRT PAAAAAAAGE 11111111111111 */
+
+
+
+
+
+
+
