@@ -308,3 +308,25 @@ p {
     margin-top: 24px;
     margin-left: 5px;
 }
+.challenge-art {
+    position: relative;
+    box-sizing: border-box;
+}
+.art {
+    max-width: 830px;
+    position: relative;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+.art-text {
+    position: absolute;
+	width: 100%;
+    box-sizing: border-box;
+    top: 0%;
+    left: 50%;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.art-text > span {
+    font-weight: bold;
+}
