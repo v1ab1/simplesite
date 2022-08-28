@@ -387,3 +387,31 @@ p {
 .course-selector {
     margin: 174px 4vw 0 4vw;
 }
+.course-header {
+    display: flex;
+    justify-content: space-between;
+}
+.course-header-right {
+    display: flex;
+}
+.course-year {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-top: 55px;
+}
+.course-year > span {
+    font-size: 30px;
+    letter-spacing: 4.5px;
+}
+.white_quadrat4 {
+    margin-top: 59px;
+}
+.course-list {
+    display: flex;
+}
+.course-box {
+    width: 290px;
+    min-height: 380px;
+}
