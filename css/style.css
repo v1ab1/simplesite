@@ -434,19 +434,22 @@ p {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 1px;
+    margin-top: 48px;
+    margin-bottom: 14;
 }
 .course-box-header > span {
     color: #a460f9;
 }
 .course-line {
     width: 55px;
-    height: 3px;
+    height: 1px;
     background-color: #a460f9;
     border: none;
 }
 .course-text {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 .course-button {
     margin-bottom: 37px;
