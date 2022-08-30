@@ -452,9 +452,9 @@ p {
     letter-spacing: 1px;
     line-height: 2;
     padding: 0 1vw;
-    margin-bottom: 30px;
+    margin-bottom: 54px;
 }
 .course-button {
+    margin-left: 80px;
     margin-bottom: 37px;
-    margin: 0 auto;
 }
