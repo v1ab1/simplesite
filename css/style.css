@@ -520,22 +520,29 @@ p {
     font-size: 62px;
     letter-spacing: 5px;
     margin-top: 2px;
+    margin-bottom: 25px;
 }
 .about-us-header > span {
     color: #aa84f9;
     font-weight: normal;
 }
 .about-us-li {
+    position: relative;
     color: #fff;
     list-style-type: none;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
+    left: 17px;
 }
 .about-us-li::before {
     content: "■";
+    position: absolute;
     color: #a460f9;
+    font-size: 16px;
+    left: -17px;
+    top: -2px;
 }
 .about-us-text > p {
     font-size: 14px;
@@ -552,12 +559,25 @@ p {
       "top-left top-right"
       "bot-left bot-right";
     padding: 0;
-  }
-  .top-left { grid-area: top-left; }
-  
-  .top-right { grid-area: top-right; }
-  
-  .bot-left { grid-area: bot-left; }
-  
-  .bot-right { grid-area: bot-right; }
-  
+    margin-top: 70px;
+    margin-bottom: 86px;
+}
+  .top-left { 
+    grid-area: top-left; 
+}
+  .top-right { 
+    grid-area: top-right;
+    margin-left: 68px;
+}
+  .bot-left { 
+    grid-area: bot-left;
+    margin-top: 26px;
+}
+  .bot-right { 
+    grid-area: bot-right;
+    margin-left: 68px;
+    margin-top: 26px;
+}
+.about-us-button {
+    margin-left: 3px;
+}
