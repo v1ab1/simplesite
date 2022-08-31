@@ -633,7 +633,7 @@ main {
 .explore {
     position: absolute;
     right: -378px;
-    top: 42%;
+    top: 30%;
     transform: rotate(-90deg) translateY(-50%);
 }
 .explore > p {
@@ -649,4 +649,47 @@ main {
 }
 .why-us-text > p{
     margin-bottom: 53px;
+}
+.player-left {
+    transform: rotate(270deg);
+    display: flex;
+    margin: auto 0;
+}
+.white-arrow {
+    height: 60px;
+    transform: rotate(90deg);
+}
+.player-box { 
+    display: flex;
+    justify-content: space-around;
+  }
+.player-right { 
+    transform: rotate(270deg);
+    display: flex;
+    margin: auto 0;
+}
+.player-box {
+    margin-top: 217px;
+}
+.player-left > p, .player-right > p {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.player-left > p {
+    text-align: right;
+}
+.player-right > p {
+    text-align: left;
+}
+.white-arrow-left {
+    position: relative;
+    right: -45px;
+    top: 19px;
+}
+.white-arrow-right {
+    transform: rotate(270deg);
+    position: relative;
+    top: 15px;
+    right: 50px;
 }
