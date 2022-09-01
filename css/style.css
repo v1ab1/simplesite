@@ -951,7 +951,7 @@ footer {
     }
     .small-table {
         background-color: #181818;
-        box-shadow: 19px 120px 64px -93px black, 19px -120px 64px -93px black;
+        box-shadow: 0 -10px 40px 0 rgb(0, 0, 0);
         font-family: 'Oswald', Helvetica, Arial, sans-serif;
         display: flex;
         justify-content: space-around;
