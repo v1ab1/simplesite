@@ -68,7 +68,6 @@ main {
 .header {
     display: flex;
     margin-top: 47px;
-    width: 92vw;
     max-width: 1440px;
     justify-content: space-between;
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
@@ -110,6 +109,7 @@ main {
     text-transform: uppercase;
     font-family: 'Oswald', Helvetica, Arial, sans-serif;
     font-size: 18px;
+    margin-right: 4vw;
 }
 .active, .header-links:hover {
     border-bottom: 2px solid white;
@@ -303,7 +303,7 @@ main {
 .left-challenge-text {
     display: flex;
     flex-direction: column;
-    margin: 0 4vw 0 4vw;
+    margin-left: 4vw;
 }
 .vertical-text2 {
     align-self: flex-start;
@@ -335,7 +335,7 @@ main {
     position: absolute;
 	width: 100%;
     box-sizing: border-box;
-    top: 11%;
+    top: 0%;
     left: 8%;
     font-size: 85px;
     text-transform: uppercase;
@@ -515,9 +515,9 @@ main {
 }
 .about-us-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1440px;
-    margin: 0 13vw;
+    margin: 0;
 }
 .about-us-circle {
     width: 396px;
@@ -743,8 +743,8 @@ main {
 }
 .review-list {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 13vw;
+    justify-content: space-around;
+    margin: 0px;
 }
 .review-header {
     color: #aeaeae;
@@ -803,6 +803,7 @@ main {
     letter-spacing: 2px;
     padding-left: 40px;
     text-transform: uppercase;
+    outline: none;
 }
 .first-name {
     margin-top: 75px;
@@ -892,6 +893,7 @@ footer {
     border: 2px solid #fff;
     color: #fff;
     font-size: 18px;
+    outline: none;
 }
 .social-media-heading {
     font-weight: 500;
