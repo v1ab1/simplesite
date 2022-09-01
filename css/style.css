@@ -911,7 +911,7 @@ footer {
 .small-table {
     display: none;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1450px) {
     .grid-wrapper {
         display: none;
     }
@@ -959,7 +959,7 @@ footer {
         position: absolute;
         width: 100vw;
         height: 180px;
-        bottom: 200px;
+        top: 700px;
     }
     .challenges {
         margin-top: 270px;
@@ -1298,5 +1298,41 @@ footer {
     }
     .social-media {
         justify-content: space-around;
+    }
+}
+@media screen and (max-width: 375px) {
+    .player-active {
+        width: 375px;
+        height: 210px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .player-active {
+        width: 320px;
+        height: 180px;
+    }
+    .art {
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 200px;
+    }
+    .art-text {
+        font-size: 20px;
+    }
+    .square {
+        display: none;
+    }
+    .sign-in {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+    .link-containter {
+        font-size: 12px;
+    }
+    .link-containter:first-of-type {
+        margin-left: 4vw;
+    }
+    .course-header-right {
+        display: none;
     }
 }
