@@ -1185,9 +1185,6 @@ footer {
     }
 }
 @media screen and (max-width: 425px) {
-    footer {
-        display: none;
-    }
     .link-containter:not(:last-child) {
         padding-right: 10px;
     }
@@ -1273,5 +1270,33 @@ footer {
     .review-text {
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+    .newsletter-form {
+        margin-right: 0;
+    }
+    .first-name, .email-holder-message, .message {
+        width: 75%;
+    }
+    .newsletter-header {
+        font-size: 40px;
+    }
+    .newsletter-under-header {
+        font-size: 30px;
+    }
+    .newsletter-text {
+        font-size: 12px;
+    }
+    footer {
+        flex-direction: column;
+        height: 760;
+    }
+    .about, .what-we-do, .sign-up-footer {
+        margin: 0 4vw;
+    }
+    .link-header {
+        width: 100%;
+    }
+    .social-media {
+        justify-content: space-around;
     }
 }
