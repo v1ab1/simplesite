@@ -85,7 +85,6 @@ main {
 .header-ul {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     margin: 0;
     line-height: 1.6;
     padding: 0;
@@ -199,14 +198,14 @@ main {
     border-bottom: 2px solid #fff;
     align-self: flex-start;
 }
-.intro > p {
+.intro-text {
     font-size: 15px;
     font-weight: 600;
     margin-top: 19px;
     line-height: 1.7;
     margin-bottom: 47px;
 }
-.intro > h3 {
+.intro-header {
     margin: 0;
     font-size: 21px;
     text-transform: uppercase;
@@ -905,4 +904,374 @@ footer {
 }
 .sign-form {
     margin-bottom: 47px;
+}
+.small-intro {
+    display: none;
+}
+.small-table {
+    display: none;
+}
+@media screen and (max-width: 1440px) {
+    .grid-wrapper {
+        display: none;
+    }
+    .small-intro {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .small-intro-left, .small-intro-center, .small-intro-right {
+        max-width: 33vw;
+        align-self: center;
+    }
+    .white_quadrat-small {
+        margin: 10px;
+        background-color: #fff;
+        width: 24px;
+        height: 24px;
+    }
+    .small-intro-left {
+        display: flex;
+    }
+    .become-small {
+        margin: 0;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .intro-header {
+        color: #fff;
+        font-size: 42px;
+    }
+    .intro-text {
+        font-size: 20px;
+    }
+    .start-button, .read-more {
+        font-size: 20px;
+    }
+    .small-table {
+        background-color: #181818;
+        box-shadow: 19px 120px 64px -93px black, 19px -120px 64px -93px black;
+        font-family: 'Oswald', Helvetica, Arial, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+        height: 180px;
+        bottom: 200px;
+    }
+    .challenges {
+        margin-top: 270px;
+    }
+    .about-us-circle {
+        left: -80px;
+    }
+}
+@media screen and (max-width: 1347px) {
+    .white_quadrat-small {
+        width: 12px;
+        height: 12px;
+    }
+    .become-small {
+        font-size: 15px;
+    }
+    .intro-header {
+        font-size: 21px;
+    }
+    .intro-text {
+        font-size: 15px;
+    }
+    .circle {
+        margin-left: 15px;
+    }
+    .left-challenge-text, .right-challenge-text {
+        display: none;
+    }
+    .challenges-top {
+        margin-left: 10vw;
+    }
+    .art {
+        max-width: 548px;
+    }
+    .art-text {
+        font-size: 56px;
+    }
+    .course-box {
+        height: 425px;
+    }
+    .course-button {
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .about-us-circle {
+        top: 75px;
+        width: 260px;
+        height: 260px;
+    }
+    .about-us-pic {
+        bottom: 100px;
+        width: 402px;
+    }
+    .about-us {
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+    .course-selector {
+        margin-top: 30px;
+    }
+    .challenges {
+        margin-top: 220px;
+    }
+    .why-us-content {
+        margin-top: 0;
+    }
+    .why-us-art {
+        width: 450px;
+    }
+    .player-active {
+        width: 768px;
+        height: 432px;
+    }
+    .reviews {
+        margin-bottom: 120px;
+    }
+    .newsletter-pic {
+        top: 230px;
+        width: 945px;
+        height: 750px;
+    }
+    footer {
+        padding-top: 100px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .small-table {
+        bottom: 300px;
+    }
+    .start-button, .read-more {
+        font-size: 13px;
+    }
+    .intro-text {
+        font-size: 15px;
+    }
+    .intro-header {
+        font-size: 17px;
+    }
+    .circle {
+        margin-left: -20px;
+        width: 300px;
+        height: 300px;
+    }
+    .intro-pic {
+        margin-left: 40px;
+        margin-top: -130px;
+        max-width: 200px;
+    }
+    .plus {
+        font-size: 30px;
+    }
+    .number {
+        font-size: 30px;
+    }
+    .award-text {
+        font-size: 10px;
+    }
+    .small-table {
+        bottom: 380px;
+        height: 90px;
+    }
+    .link-containter:not(:last-child) {
+        padding-right: 60px;
+    }
+    .challenges {
+        margin-top: 100px;
+    }
+    .art {
+        max-width: 363px;
+    }
+    .course-list {
+        flex-wrap: wrap;
+    }
+    .course-button {
+        margin-left: 80px;
+    }
+    .course-box {
+        margin-bottom: 40px;
+    }
+    .course-list {
+        margin-bottom: 0;
+    }
+    .about-us-content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        overflow-x: clip;
+    }
+    .about-us-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .about-us-ul {
+        margin: 50px auto;
+    }
+    .about-us-circle {
+        width: 396px;
+        height: 396px;
+        position: static;
+        margin: 0 auto;
+    }
+    .about-us-pic {
+        width: 610px;
+        bottom: 200px;
+        right: 130px;
+    }
+    .about-us-button {
+        margin: 0 auto;
+    }
+    .explore {
+        display: none;
+    }
+    .why-us-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .why-us-art {
+        width: 610px;
+        margin: 0 auto;
+    }
+    .why-us-text {
+        margin-right: 0;
+        text-align: center;
+    }
+    .player-left, .player-right {
+        display: none;
+    }
+    .player-active {
+        width: 768px;
+        height: 432px;
+    }
+    .newsletter-pic {
+        display: none;
+    }
+    .send-message-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-name, .email-holder-message, .message {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    .sign-up-header {
+        font-size: 24px;
+    }
+    .email-footer {
+        width: 300px;
+    }
+    .social-media-heading, .footer-link {
+        font-size: 16px;
+    }
+    .social-media-pic {
+        width: 30px;
+        height: 30px;
+    }
+    .link-header {
+        font-size: 24px;
+    }
+    footer {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 425px) {
+    footer {
+        display: none;
+    }
+    .link-containter:not(:last-child) {
+        padding-right: 10px;
+    }
+    .small-intro-left, .small-intro-center, .small-intro-right {
+        max-width: 100%;
+    }
+    .small-intro {
+        display: flex;
+        flex-direction: column;
+    }
+	.small-intro-right {
+		padding: 20px 4vw 50px 4vw;
+    	margin-top: 40px;
+		box-shadow: 0 -10px 40px 0 rgb(0 0 0);
+	}
+	.intro-pic {
+		z-index: -1;
+        margin-top: -126px;
+	}
+	.small-intro-center {
+		position: relative;
+		z-index: -1;
+	}
+    .small-table {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        justify-content: normal;
+    }
+    .award-text {
+        font-size: 24px;
+    }
+    .plus, .number {
+        font-size: 60px;
+    }
+    .challenge-art {
+        margin-top: 150px;
+    }
+    .art {
+        width: 300px;
+        margin-left: 40px;
+    }
+    .art-text {
+        left: 0%;
+        top: 20%;
+        font-size: 30px;
+    }
+    .challenges-bot > p {
+        font-size: 30px;
+    }
+    .arrow {
+        height: 50px;
+    }
+    .course-box {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .about-us-circle {
+        width: 200px;
+        height: 200px;
+    }
+    .about-us-pic {
+        width: 305px;
+        bottom: 100px;
+        right: 70px;
+    }
+    .about-us-li {
+        font-size: 8px;
+    }
+    .why-us-art {
+        width: 305px;
+    }
+    .player-active {
+        width: 425px;
+        height: 240px;
+    }
+    .player-box {
+        margin: 100px auto;
+    }
+    .review-list {
+        flex-direction: column;
+    }
+    .review-text {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 }
