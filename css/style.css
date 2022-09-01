@@ -959,7 +959,6 @@ footer {
         position: absolute;
         width: 100vw;
         height: 180px;
-        top: 700px;
     }
     .challenges {
         margin-top: 270px;
@@ -1047,11 +1046,11 @@ footer {
     }
 }
 @media screen and (max-width: 1024px) {
-    .small-table {
-        bottom: 300px;
-    }
     .start-button, .read-more {
         font-size: 13px;
+    }
+    .challenge-art {
+        margin-left: 100px;
     }
     .intro-text {
         font-size: 15px;
@@ -1079,7 +1078,6 @@ footer {
         font-size: 10px;
     }
     .small-table {
-        bottom: 380px;
         height: 90px;
     }
     .link-containter:not(:last-child) {
@@ -1183,6 +1181,15 @@ footer {
     footer {
         height: 350px;
     }
+    .newsletter {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .challenge-art {
+        margin-left: 0;
+    }
 }
 @media screen and (max-width: 425px) {
     .link-containter:not(:last-child) {
@@ -1213,6 +1220,7 @@ footer {
         flex-direction: column;
         position: static;
         justify-content: normal;
+        box-shadow: none;
     }
     .award-text {
         font-size: 24px;
