@@ -448,7 +448,7 @@ main {
     text-align: center;
     letter-spacing: 1px;
     margin-top: 40px;
-    margin-bottom: 14;
+    margin-bottom: 14px;
 }
 .course-box-header > span {
     color: #a460f9;
@@ -815,7 +815,7 @@ main {
 }
 .form-button {
     display: block;
-    margin: 90 auto 0 auto;
+    margin: 90px auto 0px auto;
 }
 .newsletter-header {
     color: #fff;
@@ -1296,7 +1296,7 @@ footer {
     }
     footer {
         flex-direction: column;
-        height: 760;
+        height: 760px;
     }
     .about, .what-we-do, .sign-up-footer {
         margin: 0 4vw;
